@@ -1,0 +1,38 @@
+[
+  {
+    "symbol": "BTC-USD",
+    "initial_rows": 17237,
+    "retained_rows": 17237,
+    "removed_rows": 0,
+    "start_date": "2024-08-25 00:00:00",
+    "end_date": "2026-08-14 13:00:00",
+    "completeness_pct": 100.0
+  },
+  {
+    "symbol": "ETH-USD",
+    "initial_rows": 17234,
+    "retained_rows": 17234,
+    "removed_rows": 0,
+    "start_date": "2024-08-25 00:00:00",
+    "end_date": "2026-08-14 13:00:00",
+    "completeness_pct": 100.0
+  },
+  {
+    "symbol": "SOL-USD",
+    "initial_rows": 17236,
+    "retained_rows": 17236,
+    "removed_rows": 0,
+    "start_date": "2024-08-25 00:00:00",
+    "end_date": "2026-08-14 13:00:00",
+    "completeness_pct": 100.0
+  },
+  {
+    "symbol": "BNB-USD",
+    "initial_rows": 17237,
+    "retained_rows": 17237,
+    "removed_rows": 0,
+    "start_date": "2024-08-25 00:00:00",
+    "end_date": "2026-08-14 13:00:00",
+    "completeness_pct": 100.0
+  }
+]

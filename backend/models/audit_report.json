@@ -1,0 +1,114 @@
+{
+  "symbol": "BTC-USD",
+  "total_candles": 17035,
+  "walk_forward_folds": [
+    {
+      "fold": 1,
+      "train_dates": "2024-09-02 -> 2024-12-11",
+      "val_dates": "2024-12-11 -> 2025-03-22",
+      "train_samples": 2413,
+      "val_samples": 2413,
+      "accuracy": 55.37,
+      "f1": 40.56,
+      "balanced_accuracy": 34.17
+    },
+    {
+      "fold": 2,
+      "train_dates": "2024-09-02 -> 2025-03-22",
+      "val_dates": "2025-03-22 -> 2025-06-30",
+      "train_samples": 4826,
+      "val_samples": 2413,
+      "accuracy": 51.43,
+      "f1": 36.77,
+      "balanced_accuracy": 34.13
+    },
+    {
+      "fold": 3,
+      "train_dates": "2024-09-02 -> 2025-06-30",
+      "val_dates": "2025-06-30 -> 2025-10-09",
+      "train_samples": 7239,
+      "val_samples": 2413,
+      "accuracy": 52.42,
+      "f1": 38.85,
+      "balanced_accuracy": 33.87
+    },
+    {
+      "fold": 4,
+      "train_dates": "2024-09-02 -> 2025-10-09",
+      "val_dates": "2025-10-09 -> 2026-01-19",
+      "train_samples": 9652,
+      "val_samples": 2413,
+      "accuracy": 54.66,
+      "f1": 42.22,
+      "balanced_accuracy": 34.41
+    },
+    {
+      "fold": 5,
+      "train_dates": "2024-09-02 -> 2026-01-19",
+      "val_dates": "2026-01-19 -> 2026-04-29",
+      "train_samples": 12065,
+      "val_samples": 2413,
+      "accuracy": 55.2,
+      "f1": 41.33,
+      "balanced_accuracy": 34.21
+    }
+  ],
+  "walk_forward_summary": {
+    "mean_accuracy": 53.82,
+    "std_accuracy": 1.59
+  },
+  "final_test_summary": {
+    "start_date": "2026-04-29 22:00:00",
+    "end_date": "2026-08-14 10:00:00",
+    "test_samples": 2556,
+    "class_distribution": {
+      "1": 1492,
+      "0": 538,
+      "2": 526
+    },
+    "accuracy_pct": 58.29,
+    "f1_pct": 43.76,
+    "balanced_accuracy_pct": 33.7,
+    "confusion_matrix": [
+      [
+        1,
+        530,
+        7
+      ],
+      [
+        2,
+        1480,
+        10
+      ],
+      [
+        2,
+        515,
+        9
+      ]
+    ]
+  },
+  "high_confidence_audit": {
+    ">=60%": {
+      "threshold_pct": 60,
+      "signals_count": 339,
+      "coverage_pct": 13.26,
+      "correct_predictions": 242,
+      "incorrect_predictions": 97,
+      "accuracy_pct": 71.39,
+      "precision_pct": 50.96,
+      "recall_pct": 71.39,
+      "f1_score_pct": 59.47
+    },
+    ">=65%": {
+      "threshold_pct": 65,
+      "signals_count": 96,
+      "coverage_pct": 3.76,
+      "correct_predictions": 74,
+      "incorrect_predictions": 22,
+      "accuracy_pct": 77.08,
+      "precision_pct": 59.42,
+      "recall_pct": 77.08,
+      "f1_score_pct": 67.11
+    }
+  }
+}
